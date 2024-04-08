@@ -1,39 +1,24 @@
-# Grid World with Reinforcement Learning 
-This is Grid World example that we made for the simple algorithm test
-The game is simple. The red rectangle must arrive in the circle, avoiding triangle.
+# OpenAI gym Cartpole
 
-<p align="left"><img width="40%" src="./gridworld.png" /></p>
+
+Various reinforcement learning algorithms for Cartpole example.
+<p align="left"><img width="40%" src="./cartpole.png" /></p>
+
 
 <br/>
+This is graph of DQN algorithm
 
-
-
-## Dynamic Programming
-**1. Policy Iteration**
-
-**2. Value Iteration**
-    
-<br/>
-
-## Reinforcement Learning Fundamental Algorithms
-**3. Monte-Carlo**
-
-**4. SARSA**
-
-**5. Q-Learning**
+<p align="left"><img width="40%" src="./1. DQN/save_graph/Cartpole_DQN.png" /></p>
 
 <br/>
+This is graph of Double DQN algorithm
 
-## Futher Reinforcement Learning Algorithms
->we have changed Grid World so the obstacles are moving. To solve this problem, we have to use function approximator. 
-We used Neural Network as function approximator
-
-<p align="left"><img width="40%" src="./gridworld_changing.png" /></p>
+<p align="left"><img width="40%" src="./2. Double DQN/save_graph/Cartpole_DoubleDQN.png" /></p>
 
 <br/>
+This is graph of Policy Gradient algorithm
+<p align="left"><img width="40%" src="./3. Policy Gradient/save_graph/Cartpole_PG.png" /></p>
 
-**6. DQN**
-
-**7. Policy Gradient**
-    
-    
+<br/>
+This is graph of Actor Critic algorithm
+<p align="left"><img width="40%" src="./4. Actor-Critic/save_graph/Cartpole_ActorCritc.png" /></p>
